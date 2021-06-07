@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body onload="display_day(); displayDate()">
+    <div class="todo">
+        <h1 id="heading-title">To Do List</h1>
+        <p id="day"></p>
+        <p id="date"></p>
+        <input type="text" id="input-text-todo" placeholder="Add a task..."><br>
+        <button id="addbtn">ADD</button>
+
+        <ul id="listitems">
+
+        </ul>
+    </div>
+
+    <p id="footer-text">© 2021 Amar Garcevic. All Rights Reserved.</p>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

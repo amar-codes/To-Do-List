@@ -1,0 +1,134 @@
+body {
+    background-color: #0d1e53;
+}
+
+.todo {
+    background-color: #3c424a;
+    padding: 50px;
+    width: 55%;
+    margin: 0 auto;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#heading-title {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#day {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: 400;
+}
+
+#date {
+    font-size: 20px;
+    color: #8d8d8d;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+#input-text-todo {
+    width: 80%;
+    display: block;
+    margin: 50px auto 0px auto;
+    background-color: #343a40;
+    border: 0px solid transparent;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#input-text-todo:focus {
+    outline: 0;
+    border: 0;
+}
+
+input[type="text" i] {
+    color: white;
+    font-size: 20px;
+}
+
+#addbtn {
+    display: block;
+    margin: 0 auto;
+    border: 0px solid transparent;
+    background-color: #343a40;
+    padding: 20px 50px;
+    color: white;
+    font-size: 20px;
+}
+
+#addbtn:hover {
+    cursor: pointer;
+}
+
+.mystyle {
+    text-decoration: line-through;
+}
+
+#newLi {
+    list-style-type: none;
+    font-size: 36px;
+    padding: 20px 0px 20px 0px;
+}
+
+#div1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+}
+
+#closebtn {
+    display: flex;
+    padding: 5px 20px 5px 20px;
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 25px;
+}
+
+#closebtn:hover {
+    cursor: pointer;
+}
+
+#newLi:hover {
+    cursor: pointer;
+    text-decoration: line-through;
+}
+
+#footer-text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 250px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    .todo {
+        background-color: #3c424a;
+        padding: 20px;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 50px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        word-wrap: break-word;
+    }
+    #addbtn {
+        padding: 10px 25px;
+    }
+}
